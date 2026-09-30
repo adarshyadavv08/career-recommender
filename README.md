@@ -20,10 +20,12 @@ Features:-
   User-Friendly Format: Clean, well-organized console output.
   
 Technologies/tools used:-
-Scoring: Each answer increments relevant domain scores based on the question-to-domain mapping.
-Best Path Selection: Finds the domain with the maximum score.
-Tie Detection: Identifies all domains with equal maximum scores.
-Interest Level Classification: Categorizes based on score magnitude.
+python
+logic:
+  Scoring: Each answer increments relevant domain scores based on the question-to-domain mapping.
+  Best Path Selection: Finds the domain with the maximum score.
+  Tie Detection: Identifies all domains with equal maximum scores.
+  Interest Level Classification: Categorizes based on score magnitude.
 
 How It Works(run the project):-
 The application operates by asking the user a total of 6 questions. These questions are designed to gauge the user's interests, learning preferences, and inclinations within various domains of technology. The application utilizes a straightforward rule-based scoring system. This makes the tool accessible to both users and those who want to understand or modify the code.
@@ -41,8 +43,7 @@ Once a recommendation is made, the application provides:
 Study Plans: Step-by-step guidance on what to learn, possibly including recommended resources, courses, or topics to cover for that field.
 Required Skills: A summary of the core competencies and technical skills essential for success in the recommended domain.
 Future Jobs: An overview of potential job roles, titles, or career trajectories aligned with the chosen field.
-Target Audience and Utility:
-This tool is especially useful for students who feel overwhelmed by the diversity of tech careers or are unsure of where to start. It can serve as an introductory project for students learning Python, illustrating how rule-based logic and user input can be combined for practical, interactive applications.
+
 Sample Output Explanation:-
 Your Recommended Career Path: The domain with the highest score
 Interest Level:

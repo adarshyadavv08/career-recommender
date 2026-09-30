@@ -1,8 +1,10 @@
 # career-recommender
-Overview:
+Overview of the project:
 The Career-Interest-Recommender is a simple Python console application. It is especially for those who just starting their journey in the computer science. Its fundamental goal is to guide students in discovering the most suitable technology career path based on their interests and preferences.
+
 Problem Statement:
 Students often struggle with career direction, unsure which technology domain suits their interests—whether it's AI/ML, Web Development, Cybersecurity, Data Science, UI/UX Design, or Cloud & DevOps. This tool provides guidance to help students make decisions about their academic and career paths.
+
 Features:-
 1.Core Features:
   Interactive Questionnaire: 6 unique, choice-based questions that capture student interests.
@@ -16,7 +18,14 @@ Features:-
   Tie-Handling: Displays multiple recommendations if scores are equal.
   Interest Level Classification: Categorizes student interest as Low, Medium, or High.
   User-Friendly Format: Clean, well-organized console output.
-How It Works:-
+  
+Technologies/tools used:-
+Scoring: Each answer increments relevant domain scores based on the question-to-domain mapping.
+Best Path Selection: Finds the domain with the maximum score.
+Tie Detection: Identifies all domains with equal maximum scores.
+Interest Level Classification: Categorizes based on score magnitude.
+
+How It Works(run the project):-
 The application operates by asking the user a total of 6 questions. These questions are designed to gauge the user's interests, learning preferences, and inclinations within various domains of technology. The application utilizes a straightforward rule-based scoring system. This makes the tool accessible to both users and those who want to understand or modify the code.
 Recommendation Domains:-
 Based on the user's responses, the app suggests one of several popular technology domains:
@@ -43,8 +52,3 @@ Interest Level:
  Scores for Reference: Complete breakdown of all domain scores
   What You Should Study: Priority topics and skills to begin with
   Future Career Options: Potential job titles after gaining expertise
-Key Algorithms:-
-  Scoring Logic: Each answer increments relevant domain scores based on the question-to-domain mapping.
-  Best Path Selection: Finds the domain with the maximum score.
-  Tie Detection: Identifies all domains with equal maximum scores.
-  Interest Level Classification: Categorizes based on score magnitude.
